@@ -6,7 +6,6 @@ An Android app to explore news articles built with Kotlin and Jetpack Compose.
 - Kotlin, Coroutines
 - Jetpack Compose, Material 3, Navigation
 - Retrofit + OkHttp (Gson converter)
-- Room (optional)
 
 ## Requirements
 - Android Studio (Giraffe/Koala or newer)
