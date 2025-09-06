@@ -1,0 +1,18 @@
+plugins {
+    alias(libs.plugins.jetbrainsKotlinJvm)
+    id 'application'
+}
+
+dependencies {
+    implementation "org.jetbrains.kotlinx:kotlinx-coroutines-core:1.7.3"
+}
+
+application {
+    mainClass = 'playground.MainKt'
+}
+
+kotlin {
+    jvmToolchain(17)
+}
+
+
